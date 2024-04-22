@@ -22,8 +22,8 @@ export class StudentListComponent implements OnInit {
 	studentListData: any;
 
 	constructor(private studentService: StudentService, private toastr: ToastrService) { }
-	
-	// Call student list function on page load 
+
+	// Call student list function on page load
 	ngOnInit() {
 		this.getStudentList();
 	}
@@ -55,6 +55,4 @@ export class StudentListComponent implements OnInit {
 		}
 	}
 }
-/**
- * Created By : Sangwin Gawande (http://sangw.in)
- */
+

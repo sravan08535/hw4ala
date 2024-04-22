@@ -1,6 +1,3 @@
-/**
- * Created By : Sangwin Gawande (http://sangw.in)
- */
 
 import { Component } from '@angular/core';
 
